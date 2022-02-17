@@ -1,0 +1,68 @@
+* {
+    margin: 0; 
+    padding: 0;
+    background-color: #FFFDe7;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4c4b45;
+    height: 40px;
+}
+
+nav * {
+    background-color: #4c4b45;
+    color: white;
+}
+
+.navlinks{
+    display: flex;
+    padding-right: 10px; 
+}
+
+.navlinks li {
+    padding-left: 10px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* hero */
+
+header{
+    background-color:#4c4b45;
+    height: 100vh;
+    display: flex; 
+}
+
+header h2{
+    background-color:#4c4b45;
+    color: white;
+}
+
+header p {
+    background-color:#4c4b45;
+    color: white; 
+    padding-top: 20px; 
+}
+
+header button {
+    display: block;
+    margin-top: 20px;
+}
+
+img{
+    height: 400px; 
+    width: 600px; 
+}
+content {
+    background-color:#4c4b45;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
